@@ -7,17 +7,17 @@
 
 ### Test suites
  1. **RSS Feeds**
- * Feeds are defined and not empty.
- * Feed URLs are defined and not empty.
- * Feed names are defined and not empty
+ 	* Feeds are defined and not empty.
+ 	* Feed URLs are defined and not empty.
+ 	* Feed names are defined and not empty
 
-2. **The Menu**
-* The menu element is hidden by default.
-* Menu changes visibility when menu icon is clicked.
+ 2. **The Menu**
+	* The menu element is hidden by default.
+	* Menu changes visibility when menu icon is clicked.
 
-3. **Initial entries**
-* There is atleast a single entry element within the feed container.
-* When a new feed is loaded, the content changes.
+ 3. **Initial entries**
+	* There is atleast a single entry element within the feed container.
+	* When a new feed is loaded, the content changes.
 
 ### References
 Jasmine documentation (https://jasmine.github.io/)
