@@ -57,7 +57,7 @@ $(function() {
 
     describe('The menu', function() {
         it('menu should be hidden by default', function() {
-            expect(document.getElementsByTagName('body')[0].className).toBe('menu-hidden');
+            expect($('body').hasClass('menu-hidden')).toBe(true);
         });
 
         /* This test is to check whether the menu changes
@@ -66,9 +66,9 @@ $(function() {
         it('menu should change visibility on click', function() {
             var menuIcon = $('.menu-icon-link');
             menuIcon.click();
-            expect(document.getElementsByTagName('body')[0].className).not.toBe('menu-hidden');
+            expect($('body').hasClass('menu-hidden')).toBe(false);
             menuIcon.click();
-            expect(document.getElementsByTagName('body')[0].className).toBe('menu-hidden');
+            expect($('body').hasClass('menu-hidden')).toBe(true);
         });
     });
 
